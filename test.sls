@@ -19,7 +19,7 @@ run-gitlab-container:
     - detach: True
     - user: 'root'
     - binds:
-      - /opt/gitlab-ce:/srv/gitlab
+      - /opt/gitlab-storage:/srv/gitlab
     - port_bindings:
       - 80:80/tcp
       - 443:443/tcp
