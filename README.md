@@ -7,3 +7,4 @@ A simple example showing how to use Saltstack to provision a node with a Gitlab-
 
 When the Docker configuration changes, the container is replaced with the new configuration.
 
+See [this page](https://docs.docker.com/engine/admin/host_integration/) for more information on creating a service to start this on boot.
